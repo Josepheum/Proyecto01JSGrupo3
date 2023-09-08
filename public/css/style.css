@@ -1,0 +1,21 @@
+body{
+    background-color: darkblue;
+}
+*{
+    font-style: italic;
+    color:limegreen;
+}
+
+#arriba{
+    background-color:black;
+    color:limegreen;
+}
+
+#grande{
+    background-color: dimgrey;
+}
+
+#foot{
+    background-color: green;
+    color:white;
+}
