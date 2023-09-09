@@ -1,0 +1,158 @@
+:root {
+	--details: #E50914;
+	--bg: #141414;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #f9f9f9;
+}
+
+body {
+	background: var(--bg);
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------------------- HEADER ---------------------- */
+.navbar-container {
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 2%;
+}
+
+.logo {
+	color: var(--details);
+}
+
+.links {
+	display: flex;
+	gap: 2rem;
+}
+
+.links a {
+	text-decoration: none;
+	transition: .2s ease-in;
+}
+
+.links a:hover,
+.active {
+	color: var(--details);
+	scale: 1.1;
+}
+
+
+/* ---------------------- MAIN ---------------------- */
+.main-container {
+	position: relative;
+	width: 90%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-inline: auto;
+	background-image: url("../imagenes/propinas.jpg");
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin-inline: auto;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.title {
+	text-align: right;
+	font-size: 2rem;
+	margin-right: 2rem;
+	padding-block: 1rem;
+	text-shadow: 2px 3px #141414;
+}
+
+.calculator {
+	margin-inline: auto;
+	margin-block: auto;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.calculator-section {
+	margin: 1rem;
+	text-align: left;
+}
+
+.calculator input {
+	font-size: 2rem;
+	background-color: var(--bg);
+	border: 2px solid #f9f9f9;
+	padding: .5rem;
+	text-align: center;
+	width: 10rem;
+}
+
+.calculator-button {
+	width: fit-content;
+	font-size: 2rem;
+	padding: 1rem;
+	margin-inline: auto;
+	margin-block: 1rem;
+	background-color: var(--bg);
+	border: 3px solid var(--details);
+	cursor: pointer;
+	transition: .2s ease;
+}
+
+.calculator-button:hover {
+	scale: 1.1;
+}
+
+.calculator p {
+	margin-block: .5rem;
+}
+
+#tip,
+#totalPay {
+	font-size: 2.5rem;
+	color: var(--details);
+	padding: .2rem 1rem;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+/* ---------------------- ABOUT ---------------------- */
+.about-container {
+	width: 90%;
+	text-align: center;
+	margin-inline: auto;
+}
+
+.about {
+	margin-block: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-title {
+	font-size: 4rem;
+	text-decoration: underline;
+}
+
+.name {
+	list-style: none;
+	font-size: 2rem;
+	padding: .5rem;
+	margin-block: .5rem;
+}
