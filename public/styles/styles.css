@@ -60,6 +60,7 @@ body {
 	margin-inline: auto;
 	background-image: url("../imagenes/propinas2.jpeg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	object-fit: cover;
 }
 
